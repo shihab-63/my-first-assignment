@@ -286,11 +286,15 @@ input, textarea {
 }
 
 textarea {
-    height: 135px;
+    resize: none;
 }
 
 .form_btn {
     width: 400px;
+}
+
+.contact_form, .contact_text {
+    width: 50%;
 }
 
 /* Footer Style */
