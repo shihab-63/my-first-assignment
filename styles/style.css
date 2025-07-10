@@ -219,3 +219,29 @@ body {
     font-family: "Inter", sans-serif;
     font-size: 14px;
 }
+
+/* Ready to focus section */
+.focus_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.focus_section h1 {
+    color: var(--text-color);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.focus_section p {
+    color: var(--other-color);
+}
+
+.focus_img img {
+    border-radius: 48px;
+}
